@@ -1,0 +1,20 @@
+{
+    "name": "pruebasE2EDataPool",
+    "version": "1.0.0",
+    "description": "Data Pool Testing for web apps",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cristaor/pruebasE2EDataPool"
+    },
+    "author": "cristaor",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/cristaor/pruebasE2EDataPool/issues"
+    },
+    "homepage": "https://github.com/cristaor/pruebasE2EDataPool#readme",
+    "dependencies": {},
+    "devDependencies": {
+      "@faker-js/faker": "^6.3.1"
+    }
+}
+  
