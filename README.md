@@ -13,6 +13,7 @@ Para el diseño y ejecución de estas pruebas,se utiliza la version de ghost 4.4
 docker run -d  -e url=http://localhost:3003 -p 3003:2368 ghost:4.44.0
 
 ```
+
 ### Crear usuario Ghost
 Despues de desplegar la aplicacion bajo pruebas se debe crear un usuario en http://localhost:3003/ghost con las siguientes credenciales:
 
@@ -21,27 +22,41 @@ user-> robotpruebas@uniandes.edu.co
 password-> RobotMISO..20&
 ```
 
-## ¿Como correr las pruebas?
+
+## Inventario de pruebas manuales / exploratorias
+El inventario de pruebas exploratorias se puede encontrar en el siguiente [link](https://docs.google.com/spreadsheets/d/1PBJi9k62ba4eBXOoQGiPel9dsMm7tYdP/edit#gid=1624035705)
 
 
-### Pruebas E2E
+## Cypress
 
-Para correr las prubas de E2E se deben seguir los siguientes pasos:
-
-#### Instalar Cypress
+### Instalar Cypress
 ```
 npm install -g cypress
 ```
 
-#### Correr las pruebas E2E
-Usar los siguientes comandos empezando desde la raiz del proyecto:
+### Ejecuciòn de pruebas con Cypress
+
+Para correr las pruebas con Cypress ubicarse sobre la carpeta Pruebas/cypress y luego ejecutar:
+
+## Para ejecutar pruebas E2E de Ghost
 ```
-cd e2e
-cypress run --headed 
+cypress run --config-file cypress_ghost_4.44_e2e.json --headed
 ```
 
-### VRT 
+## Para ejecutar pruebas de validaciòn de datos aleatorios de Ghost
+```
+cypress run --config-file cypress_ghost_4.44_validacion_datos_aleatorios.json --headed
+```
+
+## Para ejecutar pruebas de validaciòn de datos usando pool apriori:
+```
+cypress run --config-file cypress_ghost_4.44_validacion_datos_pool_apriori.json --headed
+```
+
+## Para ejecutar pruebas de validaciòn de datos usando pseudo aleatorios:
+```
+cypress run --config-file cypress_ghost_4.44_validacion_datos_pseudo_aleatorio.json --headed
+```
 
 
-### Escenarios de validación de datos.
 
