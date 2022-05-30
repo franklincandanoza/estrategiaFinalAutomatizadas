@@ -1,0 +1,41 @@
+{
+    "USERNAME": "robotpruebas@uniandes.edu.co",
+    "PASSWORD": "RobotMISO..20&",
+
+    "GHOST-VERSION-1": "3.41",
+    "GHOST-VERSION-1-SETUP1": "http://localhost:3005/ghost/#/setup/one",
+    "GHOST-VERSION-1-SETUP2": "http://localhost:3005/ghost/#/setup/two",    
+    "GHOST-VERSION-1-URL1": "http://localhost:3005/ghost",
+    "GHOST-VERSION-1-URL2": "http://localhost:3005/ghost/#/site",
+    "GHOST-VERSION-1-URL3": "http://localhost:3005/ghost/#/tags",
+    "GHOST-VERSION-1-URL4": "http://localhost:3005/ghost/#/pages",
+    "GHOST-VERSION-1-URL5": "http://localhost:3005/",
+        
+
+    "GHOST-VERSION-2": "4.44",
+    "GHOST-VERSION-2-SETUP1": "http://localhost:3003/ghost/#/setup",
+    "GHOST-VERSION-2-SETUP2": "http://localhost:3003/ghost/#/setup/done",  
+    "GHOST-VERSION-2-URL1": "http://localhost:3003/ghost",
+    "GHOST-VERSION-2-URL2": "http://localhost:3003/ghost/#/dashboard",
+    "GHOST-VERSION-2-URL3": "http://localhost:3003/ghost/#/members",
+    "GHOST-VERSION-2-URL4": "http://localhost:3003/ghost/#/tags",
+    "GHOST-VERSION-2-URL5": "http://localhost:3003/ghost/#/pages",
+    "GHOST-VERSION-2-URL6": "http://localhost:3003/",
+
+    "ESCENARIO_1": "1_crear_miembro_exitosamente",
+    "ESCENARIO_2": "2_crear_miembro_sin_correo",
+    "ESCENARIO_3": "3_crear_miembro_con_corre_invalido",
+    "ESCENARIO_4": "4_crear_miembro_con_corre_existente",
+    "ESCENARIO_5": "5_eliminar_miembro_exitosamente",
+    "ESCENARIO_6": "6_intentar_eliminar_miembro_pero_cancelar_operacion",
+
+    "ESCENARIO_7": "7_crear_pagina_exitosamente",
+
+    "ESCENARIO_10": "10_Publicar_pagina_exitosamente",
+
+    "ESCENARIO_16": "16_crear_etiqueta_exitosamente",
+    "ESCENARIO_17": "17_crear_etiqueta_con_valores_vacios",
+    "ESCENARIO_21": "21_crear_etiqueta_con_color_errado",
+    "ESCENARIO_22": "22_crear_etiqueta_interna_exitosamente"
+    
+}
