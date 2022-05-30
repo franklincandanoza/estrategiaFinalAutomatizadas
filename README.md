@@ -60,3 +60,11 @@ cypress run --config-file cypress_ghost_4.44_validacion_datos_pseudo_aleatorio.j
 
 
 
+# Pruebas RIPuppet
+Para ejecutar las pruebas seguir los siguientes comandos
+
+```
+cd RI_Puppet
+npm install
+node index.js
+```

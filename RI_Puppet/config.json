@@ -1,0 +1,10 @@
+{
+    "url": "http://localhost:3001/ghost",
+    "headless": true,
+    "depthLevels": 2,
+    "inputValues": true,
+    "values": {"ember7": "d.hidalgo@uniandes.edu.co",
+        "ember9": "MyPaswword123456789",
+        "ember11":""},
+    "browsers": ["webkit"]
+}
