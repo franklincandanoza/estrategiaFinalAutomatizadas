@@ -12,6 +12,7 @@
 
 ## Video presentación Final
 
+https://drive.google.com/file/d/1h741hU3NtXRQlyBx5u70vJoc6EQvubHr/view?usp=sharing
 
 
 ## Levantar la aplicación a probar 
@@ -68,7 +69,6 @@ cypress run --config-file cypress_ghost_4.44_validacion_datos_pool_apriori.json 
 ```
 cypress run --config-file cypress_ghost_4.44_validacion_datos_pseudo_aleatorio.json --headed
 ```
-
 
 
 # Pruebas RIPuppet
