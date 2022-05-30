@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "adb": "file:node_modules/adb",
     "assertthat": "^6.5.2",
     "chai": "^4.3.6",
-    "fs": "^0.0.1-security",
+    "fs": "0.0.1-security",
     "kraken-node": "^1.0.24",
     "util": "^0.12.4"
   }

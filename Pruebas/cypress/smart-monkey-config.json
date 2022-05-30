@@ -1,0 +1,27 @@
+{
+    "projectId":"TSDL-Smart-Monkey-with-cypress on GHOST",
+    "baseUrl":"http://localhost:3003/ghost",
+    "env":{
+        "appName":"GHOST",
+        "events":100,
+        "delay":200,
+        "seed":5647,
+        "pctClicks":12,
+        "pctScroll":12,
+        "pctSelectors":12,
+        "pctKeys":12,
+        "pctSpKeys":12,
+        "pctPgNav":12,
+        "pctBwChaos":12,
+        "pctActions":16,
+        "user": "robotpruebas@uniandes.edu.co",
+        "password": "RobotMISO..20&",
+        "username": "Robot de prueba",
+        "url1": "localhost:3003"
+    },
+    "integrationFolder": "./cypress/integration/monkey",
+    "pluginsFile": "./cypress/plugins/index.js",
+    "pageLoadTimeout":120000,
+    "testFiles": "prueba_monkey.spec.js",
+    "videosFolder":"./results"
+}
