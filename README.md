@@ -36,6 +36,8 @@ password-> RobotMISO..20&
 El inventario de pruebas exploratorias se puede encontrar en el siguiente [link](https://docs.google.com/spreadsheets/d/1PBJi9k62ba4eBXOoQGiPel9dsMm7tYdP/edit#gid=1624035705)
 
 
+#HERRAMIENTAS DE PRUEBAS AUTOMATIZADAS 
+
 ## Cypress
 
 ### Instalar Cypress
