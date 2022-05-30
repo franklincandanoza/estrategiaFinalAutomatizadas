@@ -5,6 +5,15 @@
 - David Hidalgo (d.hidalgo@uniandes.edu.co)
 - Frank Candanoza (f.candanoza@uniandes.edu.co) 
 
+## Estrategia Final de Pruebas
+[estrategia-pruebas_finalv1.pdf](https://github.com/franklincandanoza/estrategiaFinalAutomatizadas/files/8795477/estrategia-pruebas_finalv1.pdf)
+
+
+
+## Video presentación Final
+
+
+
 ## Levantar la aplicación a probar 
 ### Instalar Ghost usando docker
 Para el diseño y ejecución de estas pruebas,se utiliza la version de ghost 4.44 que ya tiene imagénes definidas en DockerHub. Con el siguiente comando se podrían descargar y ejecutar el contenedor teniendo como requisito que debe existir docker instalado previamente en la máquina.
