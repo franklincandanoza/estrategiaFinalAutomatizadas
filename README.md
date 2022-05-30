@@ -84,12 +84,7 @@ cd RI_Puppet
 npm install
 node index.js
 ```
-## Regresión Visual lo pueden ejecutar para kraken ubicándose en la raiz del proyecto y ejecutando los siguientes comandos. ( se deben correr primero las pruebas de Kraken)
-```
-cd Pruebas/resemble
-npm install
-node compare_regression.js ../kraken/reports/3.41 ../kraken/reports/4.44
-```
+
 
 
 ## KRAKEN
@@ -113,4 +108,11 @@ Ingresar al directorio de Kraken y despues ejecutar los binarios locales
 ```
 ./node_modules/kraken-node/bin/kraken_node gen
 ./node_modules/kraken-node/bin/kraken_node run
+```
+
+## Regresión Visual lo pueden ejecutar para kraken ubicándose en la raiz del proyecto y ejecutando los siguientes comandos. ( se deben correr primero las pruebas de Kraken)
+```
+cd Pruebas/resemble
+npm install
+node compare_regression.js ../kraken/reports/3.41 ../kraken/reports/4.44
 ```
