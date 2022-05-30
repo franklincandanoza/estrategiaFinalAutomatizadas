@@ -114,5 +114,5 @@ Ingresar al directorio de Kraken y despues ejecutar los binarios locales
 ```
 cd Pruebas/resemble
 npm install
-node compare_regression.js ../kraken/reports/3.41 ../kraken/reports/4.44
+node compare_regression.js ../kraken/reports/screenshots/3.41/Tags/ ../kraken/reports/screenshots/4.44/Tags/
 ```
