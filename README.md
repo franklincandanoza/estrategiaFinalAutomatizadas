@@ -21,7 +21,7 @@ Para el diseño y ejecución de estas pruebas,se utiliza la version de ghost 4.4
 
 ```
 docker run -d  -e url=http://localhost:3003 -p 3003:2368 ghost:4.44.0
-
+docker run -d  -e url=http://localhost:2368 -p 3005:2368 ghost:3.41.1
 ```
 
 ### Crear usuario Ghost
@@ -91,7 +91,7 @@ node index.js
 
 ### Instalar Kraken
 ```
-crear un directorio para el proyecto
+cd Pruebas/kraken
 
 dentro de directorio ejecutar
 npm install adb
